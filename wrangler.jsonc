@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "soulo-play-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-03-31",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "soulo_play_db",
+      "database_id": "1dec64f1-5c31-4c2c-831d-0962d8594f47"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "STATIC_ASSETS",
+      "id": "c3a8c449fd8140caa1f2a3c55ee507b1"
+    }
+  ],
+  "vars": {
+    "GOOGLE_WEB_CLIENT_ID": "405845862030-fobmh27c757hvn9tf5ujj0d36ffpth1f.apps.googleusercontent.com"
+  }
+}
